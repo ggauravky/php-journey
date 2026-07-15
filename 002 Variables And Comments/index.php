@@ -1,3 +1,5 @@
+<!-- http://localhost/PHP%20Learning/002%20Variables%20And%20Comments/index.php -->
+
 <?php
 
 echo "Here We are going to learn about variables and comments in PHP.<br>";
