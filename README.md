@@ -6,7 +6,8 @@
 
 [![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![XAMPP](https://img.shields.io/badge/XAMPP-Local%20Server-FB7A24?style=for-the-badge&logo=apache&logoColor=white)](https://www.apachefriends.org/)
-[![Status](https://img.shields.io/badge/Status-In%20Progress-22c55e?style=for-the-badge)](https://github.com/ggauravky/php-journey)
+[![Lessons](https://img.shields.io/badge/Lessons-5%20Complete-22c55e?style=for-the-badge)](https://github.com/ggauravky/php-journey)
+[![Status](https://img.shields.io/badge/Status-In%20Progress-f59e0b?style=for-the-badge)](https://github.com/ggauravky/php-journey)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![GitHub followers](https://img.shields.io/github/followers/ggauravky?label=Follow&style=for-the-badge&logo=github&color=181717)](https://github.com/ggauravky)
 
@@ -37,6 +38,10 @@ Each lesson lives in its own numbered folder, keeping things organized and easy 
  ┣ 📁 003 Creating Basic Website about me Using php
  ┃ ┣ 📄 index.php
  ┃ ┗ 🖼️ img.png
+ ┣ 📁 004 Data Types
+ ┃ ┗ 📄 index.php
+ ┣ 📁 005 Strings
+ ┃ ┗ 📄 index.php
  ┗ 📄 README.md
 ```
 
@@ -46,9 +51,11 @@ Each lesson lives in its own numbered folder, keeping things organized and easy 
 
 | # | 📚 Topic | 📝 What You Will Learn | 🔗 Folder |
 |---|---|---|---|
-| `001` | **Print Hello World** | Running your very first PHP script. Understanding the `<?php ... ?>` tags and the `echo` statement to output content. | [📂 View](./001%20Print%20Hello%20World/) |
+| `001` | **Print Hello World** | Running your very first PHP script. Understanding the `<?php ... ?>` tags and the `echo` statement to output content to the browser. | [📂 View](./001%20Print%20Hello%20World/) |
 | `002` | **Variables & Comments** | Declaring variables with `$`, working with data types (strings, integers, booleans, floats), and writing single-line & multi-line comments. | [📂 View](./002%20Variables%20And%20Comments/) |
-| `003` | **Creating a Basic Website Using PHP** | Embedding PHP inside HTML, using PHP variables in templates, working with Bootstrap 5 for styling, and using the built-in `date()` function. First real mini-project! | [📂 View](./003%20Creating%20Basic%20Website%20about%20me%20Using%20php/) |
+| `003` | **Creating a Basic Website Using PHP** | Embedding PHP inside HTML, using PHP variables in templates, integrating Bootstrap 5 via CDN, and using the built-in `date()` function. First real mini-project! | [📂 View](./003%20Creating%20Basic%20Website%20about%20me%20Using%20php/) |
+| `004` | **Data Types** | Deep dive into all 7 PHP data types: `string`, `integer`, `float`, `boolean`, `array`, `object`, and `null`. Includes `var_dump()`, class instantiation, and array access. | [📂 View](./004%20Data%20Types/) |
+| `005` | **Strings** | Mastering PHP string functions: `strlen()`, `strtoupper()`, `strtolower()`, `strrev()`, `strpos()`, `str_replace()`, `str_repeat()`, `trim()`, `ltrim()`, `rtrim()`, `ucwords()`, `ucfirst()`, and more. | [📂 View](./005%20Strings/) |
 
 ---
 
@@ -63,6 +70,19 @@ Each lesson lives in its own numbered folder, keeping things organized and easy 
 | PHP in HTML | Embed PHP blocks directly inside `.php` HTML templates |
 | `date()` function | Display current date dynamically |
 | Bootstrap 5 | Rapid UI prototyping with CDN |
+| **7 Data Types** | `string`, `integer`, `float`, `boolean`, `array`, `object`, `null` |
+| `var_dump()` | Inspect variable type and value |
+| Classes & Objects | Defining a class, constructor, properties, and instantiation with `new` |
+| Arrays | Indexed arrays with `array()` and bracket access |
+| `null` | Representing an empty/unset variable |
+| `strlen()` | Get the length of a string |
+| `strtoupper()` / `strtolower()` | Case conversion |
+| `strrev()` | Reverse a string |
+| `strpos()` | Find position of a substring |
+| `str_replace()` | Search and replace within a string |
+| `trim()` / `ltrim()` / `rtrim()` | Remove whitespace from strings |
+| `str_repeat()` | Repeat a string N times |
+| `ucwords()` / `ucfirst()` / `lcfirst()` | Capitalisation helpers |
 
 ---
 
@@ -99,11 +119,13 @@ move php-journey "C:\xampp\htdocs\PHP Learning"
 
 Open XAMPP Control Panel → Click **Start** next to Apache.
 
-**Step 4 — Open in Browser**
+**Step 4 — Open any lesson in your Browser**
 ```
 http://localhost/PHP%20Learning/001%20Print%20Hello%20World/
 http://localhost/PHP%20Learning/002%20Variables%20And%20Comments/
 http://localhost/PHP%20Learning/003%20Creating%20Basic%20Website%20about%20me%20Using%20php/
+http://localhost/PHP%20Learning/004%20Data%20Types/
+http://localhost/PHP%20Learning/005%20Strings/
 ```
 
 ---
@@ -114,6 +136,8 @@ http://localhost/PHP%20Learning/003%20Creating%20Basic%20Website%20about%20me%20
 ✅ Hello World & Basic Output
 ✅ Variables, Data Types & Comments
 ✅ PHP + HTML Integration (Mini Project)
+✅ All 7 Data Types (string, int, float, bool, array, object, null)
+✅ String Functions (strlen, strtoupper, strrev, str_replace, trim, ...)
 ⬜ Operators & Expressions
 ⬜ Conditional Statements (if / else / switch)
 ⬜ Loops (for / while / foreach)
