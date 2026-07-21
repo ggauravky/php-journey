@@ -24,5 +24,12 @@ while ($k < 5) {
     $k++;
 }
 
+//another example of while loop
+$l = 5;
+while ($l > 0) {
+    echo "The value of l is: $l <br>";
+    $l--;
+}
+
 
 ?>
