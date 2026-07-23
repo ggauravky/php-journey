@@ -31,5 +31,18 @@ for ($j = 5; $j > 0; $j--) {
 
 echo "<br>";
 
+// do-while loop example
+$m = 0;
+do {
+    echo "The value of m is: $m <br>";
+    $m++;
+} while ($m < 5);
+
+//another example of do-while loop
+$m=6;
+do{
+    echo "The value of m is: $m <br>";
+    $m++;
+} while ($m < 5);
 
 ?>
