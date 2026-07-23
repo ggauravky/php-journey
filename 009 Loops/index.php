@@ -45,4 +45,10 @@ do{
     $m++;
 } while ($m < 5);
 
+//foreach loop example
+$colors = array("red", "green", "blue", "yellow");
+foreach ($colors as $color) {
+    echo "The color is: $color <br>";
+}   
+
 ?>
